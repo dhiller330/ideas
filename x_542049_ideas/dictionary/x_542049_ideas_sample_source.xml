@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Sample Source" max_length="40" name="x_542049_ideas_sample_source" sizeclass="0" type="collection">
+        <element label="Single Cell or Tissue Section" max_length="40" name="single_cell_or_tissue_section" type="string"/>
+        <element label="Tissue, Culture, or Nucleic Acid" max_length="40" name="tissue_culture_or_nucleic_acid" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs">
+    <sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE">
+        <name>requestid</name>
+        <order>100</order>
+        <rest_message_function display_value="Fetch_samples">2de84cf82f502050749af64ef699b68f</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_param_defs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-02 22:12:52</sys_created_on>
+        <sys_id>8409807c2f502050749af64ef699b64a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>requestid</sys_name>
+        <sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope>
+        <sys_update_name>sys_rest_message_fn_param_defs_8409807c2f502050749af64ef699b64a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-02 22:19:53</sys_updated_on>
+        <value>${request_id}</value>
+    </sys_rest_message_fn_param_defs>
+</record_update>

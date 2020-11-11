@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_542049_ideas.getTfa</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getTfa</name>
+        <script><![CDATA[var getTfa = Class.create();
+getTfa.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getTFA: function() {
+		try { 
+			var r = new sn_ws.RESTMessageV2('x_542049_ideas.GetTFA', 'Get TFA List');
+			r.setMIDServer('sntest');
+			//if the message is configured to communicate through ECC queue, either
+			//by setting a MID server or calling executeAsync, one needs to set skip_sensor
+			//to true. Otherwise, one may get an intermittent error that the response body is null
+			r.setEccParameter('skip_sensor', true);
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			var parser = new global.JSON();
+			var tfasFromIdeas = parser.decode(responseBody);
+			var tfalist = [];
+			for (var i=0; i < tfasFromIdeas.length; i++) {
+				tfalist.push(tfasFromIdeas[i]["type"]);
+			}
+			return JSON.stringify(tfalist);
+		}
+		catch(ex) {
+			var message = ex.message;
+			message;
+		}
+	},
+    type: 'getTfa'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-28 21:06:37</sys_created_on>
+        <sys_id>7e16ca032f88e810749af64ef699b693</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>getTfa</sys_name>
+        <sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope>
+        <sys_update_name>sys_script_include_7e16ca032f88e810749af64ef699b693</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-29 20:30:10</sys_updated_on>
+    </sys_script_include>
+</record_update>

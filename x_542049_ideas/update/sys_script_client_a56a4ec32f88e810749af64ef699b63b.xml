@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>true</applies_extended>
+        <condition/>
+        <description>Populate the TFA List drop down from data in the ideas system</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate TFA Choice</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	
+	// Run only on my tables, not all task tables
+	var table = g_form.getTableName();
+	if (table == 'x_542049_ideas_ideas_request' || 
+		table == 'x_542049_ideas_spatial_transcriptomics') {
+		// Instantiate the GetTfa Script Include 
+		var getTFA = new GlideAjax('getTfa');
+		// Specify the getTFA method
+		getTFA.addParam('sysparm_name','getTFA');
+		// Send the request to the server
+		getTFA.getXML(populateChoiceList);
+	}
+
+    // When the response is back from the server
+    function populateChoiceList(response){
+        // Extract the choices from the response
+        var tfaInJson = response.responseXML.documentElement.getAttribute("answer");
+		var tfaList = tfaInJson.evalJSON();
+        for (var i=0; i < tfaList.length; i++) {
+			g_form.addOption('tfa_tech_center', tfaList[i], tfaList[i]);
+		}
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-29 15:39:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a56a4ec32f88e810749af64ef699b63b</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Populate TFA Choice</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope>
+        <sys_update_name>sys_script_client_a56a4ec32f88e810749af64ef699b63b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-30 13:56:48</sys_updated_on>
+        <table>task</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

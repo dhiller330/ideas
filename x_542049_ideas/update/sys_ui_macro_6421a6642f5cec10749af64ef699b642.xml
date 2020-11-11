@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description>Display a table of samples from a sample management system</description>
+        <media_type/>
+        <name>sample_display</name>
+        <scoped_name>x_542049_ideas_sample_display</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-02 15:51:10</sys_created_on>
+        <sys_id>6421a6642f5cec10749af64ef699b642</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>sample_display</sys_name>
+        <sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope>
+        <sys_update_name>sys_ui_macro_6421a6642f5cec10749af64ef699b642</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-02 22:58:31</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g:evaluate>
+	  var css = new GlideRecord("content_css");
+	  css.addQuery("name", "sample style sheet");
+	  css.query()
+	  css.next();
+	  var cssid = ""+css.sys_id;
+	</g:evaluate>
+	<link href="${cssid}.cssdbx" rel="stylesheet" type="text/css"/>
+	<tr>
+		<table class="samples">
+		<g2:evaluate var="sdata" jelly="true" object="true">
+			gs.info("request_identifier=" + current.request_identifier);
+			if (current.request_identifier != "") {
+				try { 
+					var r = new sn_ws.RESTMessageV2('x_542049_ideas.Fetch_samples', 'Fetch_samples');
+					r.setStringParameterNoEscape('request_id', current.request_identifier);
+
+					//override authentication profile 
+					//authentication type ='basic'/ 'oauth2'
+					//r.setAuthenticationProfile(authentication type, profile name);
+
+					//set a MID server name if one wants to run the message on MID
+					r.setMIDServer('sntest');
+
+					//if the message is configured to communicate through ECC queue, either
+					//by setting a MID server or calling executeAsync, one needs to set skip_sensor
+					//to true. Otherwise, one may get an intermittent error that the response body is null
+					r.setEccParameter('skip_sensor', true);
+
+					var response = r.execute();
+					var responseBody = response.getBody();
+					var httpStatus = response.getStatusCode();
+					var parser = new global.JSON();
+					var sdata = parser.decode(responseBody);
+					sdata;
+				}
+				catch(ex) {
+					var message = ex.message;
+					message;
+				}
+			} else {
+				var empty_array = [];
+				var sdata = [empty_array, empty_array, empty_array];
+				sdata;
+			}
+			</g2:evaluate>
+			<thead>
+			<tr>
+				<g2:evaluate jelly="true">
+					var parent_header = sdata[0];
+					var header = sdata[1];
+					var data = sdata[2];
+				</g2:evaluate>
+			<j2:forEach var="jvar_parent_header" items="$[parent_header]">
+				<g2:evaluate jelly="true">
+					var colspan = jelly.jvar_parent_header['table']['colspan'];
+					var parent_label = jelly.jvar_parent_header['table']['label'];
+					var display_class = jelly.jvar_parent_header['table']['display_class'];
+					gs.info("colspan=" + colspan + ", parent_label=" + parent_label + ", display_class=" + display_class);
+				</g2:evaluate>
+				<th colspan="$[colspan]" class="$[display_class]"> $[parent_label] </th>	
+				</j2:forEach>
+			</tr>
+			<tr>
+				<j2:forEach var="jvar_header" items="$[header]">
+					<g2:evaluate jelly="true">
+						var display_class = jelly.jvar_header['display_class'];
+						var label = jelly.jvar_header["label"];
+					</g2:evaluate>
+					<th class="$[display_class]"> $[label] </th>
+					</j2:forEach>
+			</tr>
+			</thead>
+			<tbody>
+			<j2:forEach var="jvar_data_row" items="$[data]" >
+				<tr>
+					<j2:forEach var="jvar_header" items="$[header]">
+			<!-- 		Use javascript to extract vaqlue for variable -->
+						<g2:evaluate var="jvar_value" jelly="true">
+							var js_data = jelly.jvar_data_row['data'];
+							var value = "Not found";
+							var display_class = "Not found";
+							var len = js_data.length;
+							for (i=0; i &lt; len; i++) {
+							  if (js_data[i]['docuri'] == jelly.jvar_header['docuri']) {
+								if (js_data[i]['instance'] == jelly.jvar_header['instance']) {
+									value = js_data[i]['value'];
+									display_class = js_data[i]['display_class'];
+							}
+							}
+							}
+							value;
+						</g2:evaluate>
+						<td class="$[display_class]">  $[value] </td>
+						</j2:forEach>
+				</tr>
+				</j2:forEach>
+			</tbody>
+		</table>
+	</tr>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>
