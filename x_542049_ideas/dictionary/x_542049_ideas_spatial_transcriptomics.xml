@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Spatial Transcriptomics" max_length="40" name="x_542049_ideas_spatial_transcriptomics" sizeclass="5" type="collection">
+    <element extends="task" label="Spatial Transcriptomics" max_length="40" name="x_542049_ideas_spatial_transcriptomics" sizeclass="1" type="collection">
         <element label="Request Identifier" max_length="30" name="request_identifier" type="string"/>
         <element label="Stage" max_length="80" name="stage" type="workflow"/>
         <element choice="3" default="Select TFA" label="TFA/Tech Center" mandatory="true" max_length="40" name="tfa_tech_center" type="choice">

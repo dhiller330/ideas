@@ -11,22 +11,22 @@
         <oauth2_profile/>
         <protocol_name/>
         <qualified_name>Fetch_samples [ Fetch_samples ]</qualified_name>
-        <rest_endpoint>http://172.28.1.46:2740/api/v1/samplesforrequest</rest_endpoint>
+        <rest_endpoint>http://10.12.131.241:2740/api/v1/samplesforrequest</rest_endpoint>
         <rest_message display_value="Fetch_samples">1fb80c3c2f502050749af64ef699b694</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-02 22:10:47</sys_created_on>
         <sys_id>2de84cf82f502050749af64ef699b68f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Fetch_samples</sys_name>
         <sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package>
         <sys_policy/>
         <sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope>
         <sys_update_name>sys_rest_message_fn_2de84cf82f502050749af64ef699b68f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-02 22:18:35</sys_updated_on>
+        <sys_updated_on>2020-11-30 20:08:50</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
-        <use_mid_server display_value="sntest">7f73bcd72fb35010749af64ef699b6c0</use_mid_server>
+        <use_mid_server display_value="sntest">d9a173a92f702010dab390bcf699b624</use_mid_server>
         <use_mutual_auth>false</use_mutual_auth>
     </sys_rest_message_fn>
 </record_update>

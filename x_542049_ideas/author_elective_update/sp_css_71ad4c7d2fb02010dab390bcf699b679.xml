@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css">
+    <sp_css action="DELETE">
+        <css>table.samples {&#13;
+  max-width: none;&#13;
+}&#13;
+&#13;
+  th.title-fixed-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: #e0e0e0;&#13;
+    text-align: center;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 11;&#13;
+    left: 0;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.title-default-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: #e0e0e0;&#13;
+    text-align: center;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.title-even-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: silver;&#13;
+    text-align: center;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.title-odd-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: Gainsboro;&#13;
+    text-align: center;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.title-retired-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: pink;&#13;
+    text-align: center;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+&#13;
+  th.fixed-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: #e0e0e0;&#13;
+    text-align: left;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 11;&#13;
+    left: 0;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.default-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: #e0e0e0;&#13;
+    text-align: left;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.even-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: silver;&#13;
+    text-align: left;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.odd-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: Gainsboro;&#13;
+    text-align: left;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.retired-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: pink;&#13;
+    text-align: left;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+&#13;
+  td.fixed-entry {&#13;
+    background-color: #ffffff;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    left: 0;&#13;
+  }&#13;
+  td.retired-entry {&#13;
+    background-color: pink;&#13;
+    text-align: left;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    top: 0;&#13;
+  }</css>
+        <name>sample style sheet</name>
+        <sys_class_name>sp_css</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 21:41:14</sys_created_on>
+        <sys_id>71ad4c7d2fb02010dab390bcf699b679</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>sample style sheet</sys_name>
+        <sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope>
+        <sys_update_name>sp_css_71ad4c7d2fb02010dab390bcf699b679</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 22:46:58</sys_updated_on>
+    </sp_css>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</application>
+        <file_path/>
+        <instance_id>6b1617e9db558c900ae3ac44d4961970</instance_id>
+        <instance_name>dev95206</instance_name>
+        <name>sp_css_71ad4c7d2fb02010dab390bcf699b679</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css"><sp_css action="INSERT_OR_UPDATE"><css>table.samples {&#13;
+  max-width: none;&#13;
+}&#13;
+&#13;
+  th.title-fixed-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: #e0e0e0;&#13;
+    text-align: center;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 11;&#13;
+    left: 0;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.title-default-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: #e0e0e0;&#13;
+    text-align: center;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.title-even-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: silver;&#13;
+    text-align: center;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.title-odd-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: Gainsboro;&#13;
+    text-align: center;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.title-retired-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: pink;&#13;
+    text-align: center;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+&#13;
+  th.fixed-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: #e0e0e0;&#13;
+    text-align: left;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 11;&#13;
+    left: 0;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.default-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: #e0e0e0;&#13;
+    text-align: left;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.even-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: silver;&#13;
+    text-align: left;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.odd-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: Gainsboro;&#13;
+    text-align: left;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.retired-entry {&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: pink;&#13;
+    text-align: left;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+&#13;
+  td.fixed-entry {&#13;
+    background-color: #ffffff;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    left: 0;&#13;
+  }&#13;
+  td.retired-entry {&#13;
+    background-color: pink;&#13;
+    text-align: left;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    top: 0;&#13;
+  }</css><name>sample style sheet</name><sys_class_name>sp_css</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-30 21:41:14</sys_created_on><sys_id>71ad4c7d2fb02010dab390bcf699b679</sys_id><sys_mod_count>2</sys_mod_count><sys_name>sample style sheet</sys_name><sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package><sys_policy/><sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope><sys_update_name>sp_css_71ad4c7d2fb02010dab390bcf699b679</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-30 22:46:58</sys_updated_on></sp_css></record_update>]]></payload>
+        <payload_hash>-642218060</payload_hash>
+        <record_name>sample style sheet</record_name>
+        <reverted_from/>
+        <source>4f25d7e52f302010dab390bcf699b64e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 22:46:58</sys_created_on>
+        <sys_id>f8bd50392ff02010dab390bcf699b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1761b5672150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 22:46:58</sys_updated_on>
+        <type>Style Sheet</type>
+        <update_guid>34bd5039c4f020107860b337c6196869</update_guid>
+        <update_guid_history>34bd5039c4f020107860b337c6196869:-642218060,3602d831c3f020106ca295e17695feba:-1123842388,fdaec4bdb3b020109f64f92b444826e1:578595848</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sample style sheet">2acfa25a2f7c6010dab390bcf699b660</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-02 22:42:13</sys_created_on>
+        <sys_db_object display_value="" name="sp_css">sp_css</sys_db_object>
+        <sys_id>4bff5211ae89451d91a081f1ed4d9c09</sys_id>
+        <sys_metadata>71ad4c7d2fb02010dab390bcf699b679</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sample style sheet</sys_name>
+        <sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope>
+        <sys_scope_delete display_value="">0ba93018b22744f899195ed4ea213324</sys_scope_delete>
+        <sys_update_name>sp_css_71ad4c7d2fb02010dab390bcf699b679</sys_update_name>
+        <sys_update_version display_value="sp_css_71ad4c7d2fb02010dab390bcf699b679">f8bd50392ff02010dab390bcf699b669</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-02 22:42:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

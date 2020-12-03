@@ -10,21 +10,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-02 15:51:10</sys_created_on>
         <sys_id>6421a6642f5cec10749af64ef699b642</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>sample_display</sys_name>
         <sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package>
         <sys_policy/>
         <sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope>
         <sys_update_name>sys_ui_macro_6421a6642f5cec10749af64ef699b642</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-02 22:58:31</sys_updated_on>
+        <sys_updated_on>2020-12-02 22:54:10</sys_updated_on>
         <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
 	<g:evaluate>
 	  var css = new GlideRecord("content_css");
 	  css.addQuery("name", "sample style sheet");
-	  css.query()
-	  css.next();
+	  css.query();
+      css.next();
 	  var cssid = ""+css.sys_id;
 	</g:evaluate>
 	<link href="${cssid}.cssdbx" rel="stylesheet" type="text/css"/>

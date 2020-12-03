@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_css">
+    <content_css action="INSERT_OR_UPDATE">
+        <name>sample style sheet</name>
+        <style>table.samples {&#13;
+  max-width: none; &#13;
+}&#13;
+&#13;
+  th.title-fixed-entry {&#13;
+padding-right: 10px;&#13;
+padding-left: 5px;&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: #e0e0e0;&#13;
+    text-align: center;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 11;&#13;
+    left: 0;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.title-default-entry {&#13;
+padding-right: 10px;&#13;
+padding-left: 5px;&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: #e0e0e0;&#13;
+    text-align: center;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.title-even-entry {&#13;
+padding-right: 10px;&#13;
+padding-left: 5px;&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: silver;&#13;
+    text-align: center;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.title-odd-entry {&#13;
+padding-right: 10px;&#13;
+padding-left: 5px;&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: Gainsboro;&#13;
+    text-align: center;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.title-retired-entry {&#13;
+padding-right: 10px;&#13;
+padding-left: 5px;&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: pink;&#13;
+    text-align: center;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+&#13;
+  td.fixed-entry {&#13;
+padding-right: 10px;&#13;
+padding-left: 5px;&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: #e0e0e0;&#13;
+    text-align: left;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 11;&#13;
+    left: 0;&#13;
+    top: 0;&#13;
+  }&#13;
+  td.default-entry {&#13;
+padding-right: 10px;&#13;
+padding-left: 5px;&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: #e0e0e0;&#13;
+    text-align: left;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+  td.even-entry {&#13;
+padding-right: 10px;&#13;
+padding-left: 5px;&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: silver;&#13;
+    text-align: left;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+  td.odd-entry {&#13;
+padding-right: 10px;&#13;
+padding-left: 5px;&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: Gainsboro;&#13;
+    text-align: left;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+  th.retired-entry {&#13;
+padding-right: 10px;&#13;
+padding-left: 5px;&#13;
+    border-bottom-width: 0;&#13;
+    border-top-width: 0;&#13;
+    background-color: pink;&#13;
+    text-align: left;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    top: 0;&#13;
+  }&#13;
+&#13;
+  td.fixed-entry {&#13;
+padding-right: 10px;&#13;
+padding-left: 5px;&#13;
+    background-color: #e0e0e0;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    z-index: 10;&#13;
+    left: 0;&#13;
+  }&#13;
+  td.retired-entry {&#13;
+padding-right: 10px;&#13;
+padding-left: 5px;&#13;
+    background-color: pink;&#13;
+    text-align: left;&#13;
+    position: -webkit-sticky;&#13;
+    position: sticky;&#13;
+    top: 0;&#13;
+  }</style>
+        <sys_class_name>content_css</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-02 22:36:23</sys_created_on>
+        <sys_id>0e2eeed62f7c6010dab390bcf699b603</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>sample style sheet</sys_name>
+        <sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope>
+        <sys_update_name>content_css_0e2eeed62f7c6010dab390bcf699b603</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-02 23:57:55</sys_updated_on>
+        <type>local</type>
+        <url/>
+    </content_css>
+</record_update>

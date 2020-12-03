@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include">
+    <sp_css_include action="DELETE">
+        <name>sample style sheet</name>
+        <source>local</source>
+        <sp_css display_value="sample style sheet">71ad4c7d2fb02010dab390bcf699b679</sp_css>
+        <sys_class_name>sp_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 21:41:14</sys_created_on>
+        <sys_id>f1aec4bd2fb02010dab390bcf699b6df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sample style sheet</sys_name>
+        <sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope>
+        <sys_update_name>sp_css_include_f1aec4bd2fb02010dab390bcf699b6df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 21:56:03</sys_updated_on>
+        <url/>
+    </sp_css_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</application>
+        <file_path/>
+        <instance_id>6b1617e9db558c900ae3ac44d4961970</instance_id>
+        <instance_name>dev95206</instance_name>
+        <name>sp_css_include_f1aec4bd2fb02010dab390bcf699b6df</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include"><sp_css_include action="INSERT_OR_UPDATE"><name>sample style sheet</name><source>local</source><sp_css display_value="sample style sheet">71ad4c7d2fb02010dab390bcf699b679</sp_css><sys_class_name>sp_css_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-30 21:41:14</sys_created_on><sys_id>f1aec4bd2fb02010dab390bcf699b6df</sys_id><sys_mod_count>1</sys_mod_count><sys_name>sample style sheet</sys_name><sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package><sys_policy/><sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope><sys_update_name>sp_css_include_f1aec4bd2fb02010dab390bcf699b6df</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-30 21:56:03</sys_updated_on><url/></sp_css_include></record_update>]]></payload>
+        <payload_hash>-1896535443</payload_hash>
+        <record_name>sample style sheet</record_name>
+        <reverted_from/>
+        <source>4f25d7e52f302010dab390bcf699b64e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 21:56:03</sys_created_on>
+        <sys_id>f602d8312ff02010dab390bcf699b6b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1761b27d3f00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-30 21:56:03</sys_updated_on>
+        <type>CSS Include</type>
+        <update_guid>fe02d4bdefb0201095ef2852209813f6</update_guid>
+        <update_guid_history>fe02d4bdefb0201095ef2852209813f6:-1896535443,3daec4bd93b02010c50c90cae31a01e0:1328355223</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sample style sheet">62cfa25a2f7c6010dab390bcf699b65c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-02 22:42:13</sys_created_on>
+        <sys_db_object display_value="" name="sp_css_include">sp_css_include</sys_db_object>
+        <sys_id>16ca48c49c604e098272565b83575121</sys_id>
+        <sys_metadata>f1aec4bd2fb02010dab390bcf699b6df</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sample style sheet</sys_name>
+        <sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope>
+        <sys_scope_delete display_value="">0ba93018b22744f899195ed4ea213324</sys_scope_delete>
+        <sys_update_name>sp_css_include_f1aec4bd2fb02010dab390bcf699b6df</sys_update_name>
+        <sys_update_version display_value="sp_css_include_f1aec4bd2fb02010dab390bcf699b6df">f602d8312ff02010dab390bcf699b6b9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-02 22:42:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

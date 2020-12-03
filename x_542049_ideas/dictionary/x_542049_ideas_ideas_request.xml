@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Ideas_Request" max_length="40" name="x_542049_ideas_ideas_request" sizeclass="1" type="collection">
+    <element extends="task" label="Ideas_Request" max_length="40" name="x_542049_ideas_ideas_request" sizeclass="0" type="collection">
         <element label="Project Name" mandatory="true" max_length="40" name="project_name" type="string"/>
         <element label="Sample group" max_length="40" name="sample_group" type="string"/>
         <element choice="3" default="Choose sample source..." label="Sample Source" mandatory="true" max_length="40" name="sample_source" reference="x_542049_ideas_e693d71b2f082c10749af64ef699b6a9" type="choice">

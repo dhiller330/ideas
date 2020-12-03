@@ -42,7 +42,7 @@
         <update_guid_history>7d1660cf8944e810f4190835cd21e4d6:-546730788</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_542049_ideas_ideas_request.x_542049_ideas.ideas_request_user">29e2125b2f442c10749af64ef699b654</sys_audit_delete>
+        <sys_audit_delete display_value="">29e2125b2f442c10749af64ef699b654</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-29 16:22:50</sys_created_on>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="e693d71b2f082c10749af64ef699b6a9" max_length="40" name="x_542049_ideas_e693d71b2f082c10749af64ef699b6a9" sizeclass="2" type="collection">
+    <element label="e693d71b2f082c10749af64ef699b6a9" max_length="40" name="x_542049_ideas_e693d71b2f082c10749af64ef699b6a9" sizeclass="0" type="collection">
         <element label="Option ID" max_length="40" name="option_id" type="integer"/>
         <element label="Option String" max_length="40" name="option_string" type="string"/>
     </element>
