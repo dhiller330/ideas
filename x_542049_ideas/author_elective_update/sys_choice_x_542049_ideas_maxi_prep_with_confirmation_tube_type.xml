@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="tube_type" table="x_542049_ideas_maxi_prep_with_confirmation" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>tube_type</element>
+            <name>x_542049_ideas_maxi_prep_with_confirmation</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-10 21:58:56</sys_created_on>
+            <sys_id>aa92f3f82f052810dab390bcf699b6ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>tube_type</sys_name>
+            <sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope>
+            <sys_update_name>sys_choice_x_542049_ideas_maxi_prep_with_confirmation_tube_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-10 21:58:56</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tube_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2D Fluidex</label>
+            <language>en</language>
+            <name>x_542049_ideas_maxi_prep_with_confirmation</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-10 22:00:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bfd2f3f82f052810dab390bcf699b6f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-10 22:00:30</sys_updated_on>
+            <value>2D Fluidex</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tube_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2D FluidX</label>
+            <language>en</language>
+            <name>x_542049_ideas_maxi_prep_with_confirmation</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-10 22:01:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57f27b3c2f052810dab390bcf699b63b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-10 22:01:13</sys_updated_on>
+            <value>2D FluidX</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tube_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Eppendorf</label>
+            <language>en</language>
+            <name>x_542049_ideas_maxi_prep_with_confirmation</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-10 21:58:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6292f3f82f052810dab390bcf699b6ee</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-10 21:59:54</sys_updated_on>
+            <value>Eppendorf</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

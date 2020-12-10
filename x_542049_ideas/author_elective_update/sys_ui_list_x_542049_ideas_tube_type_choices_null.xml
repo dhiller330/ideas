@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_542049_ideas_tube_type_choices" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>tube_type</element>
+            <list_id display_value="x_542049_ideas_tube_type_choices" element="NULL" name="x_542049_ideas_tube_type_choices" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">948a2bf42f052810dab390bcf699b632</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-10 21:23:33</sys_created_on>
+            <sys_id>9c8a2bf42f052810dab390bcf699b633</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-10 21:23:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_542049_ideas_tube_type_choices</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-10 21:23:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>948a2bf42f052810dab390bcf699b632</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_542049_ideas_tube_type_choices</sys_name>
+            <sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope>
+            <sys_update_name>sys_ui_list_x_542049_ideas_tube_type_choices_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-10 21:23:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</application>
+        <file_path/>
+        <instance_id>6b1617e9db558c900ae3ac44d4961970</instance_id>
+        <instance_name>dev95206</instance_name>
+        <name>sys_ui_list_x_542049_ideas_tube_type_choices_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_542049_ideas_tube_type_choices" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>tube_type</element><list_id display_value="x_542049_ideas_tube_type_choices" element="NULL" name="x_542049_ideas_tube_type_choices" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">948a2bf42f052810dab390bcf699b632</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-10 21:23:33</sys_created_on><sys_id>9c8a2bf42f052810dab390bcf699b633</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-10 21:23:33</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_542049_ideas_tube_type_choices</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-10 21:23:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>948a2bf42f052810dab390bcf699b632</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_542049_ideas_tube_type_choices</sys_name><sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package><sys_policy/><sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope><sys_update_name>sys_ui_list_x_542049_ideas_tube_type_choices_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-10 21:23:33</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-469048852</payload_hash>
+        <record_name>tube type choices</record_name>
+        <reverted_from/>
+        <source>4f25d7e52f302010dab390bcf699b64e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-10 21:23:33</sys_created_on>
+        <sys_id>188a6bf42f052810dab390bcf699b6dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1764e89aa810000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-10 21:23:33</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>d48a6bf4b4052810e7c36fde56e246dc</update_guid>
+        <update_guid_history>d48a6bf4b4052810e7c36fde56e246dc:-469048852</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-10 22:10:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>1267a3a952e2477485c309edc9612544</sys_id>
+        <sys_metadata>948a2bf42f052810dab390bcf699b632</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_542049_ideas_tube_type_choices</sys_name>
+        <sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package>
+        <sys_parent display_value="">caf46bf02f052810dab390bcf699b69a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope>
+        <sys_scope_delete display_value="">0ba93018b22744f899195ed4ea213324</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_542049_ideas_tube_type_choices_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_542049_ideas_tube_type_choices_null">188a6bf42f052810dab390bcf699b6dc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-10 22:10:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

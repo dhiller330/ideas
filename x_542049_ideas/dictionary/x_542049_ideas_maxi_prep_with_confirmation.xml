@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Maxi Prep with Confirmation" max_length="40" name="x_542049_ideas_maxi_prep_with_confirmation" type="collection">
+        <element label="Bacterial Host" max_length="255" name="bacterial_host" type="string"/>
+        <element label="Bacterial Selection" max_length="255" name="bacterial_selection" type="string"/>
+        <element label="Construct Name" max_length="256" name="construct_name" type="string"/>
+        <element choice="1" label="Copy Number" max_length="40" name="copy_number" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+                <element inactive_on_update="false" label="High" value="High"/>
+                <element inactive_on_update="false" label="Low" value="Low"/>
+            </choice>
+        </element>
+        <element label="Growth Medium" max_length="255" name="growth_medium" type="string"/>
+        <element choice="1" label="Pickup Location" max_length="40" name="pickup_location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="71-162" value="71-162"/>
+                <element inactive_on_update="false" label="82-110" value="82-110"/>
+            </choice>
+        </element>
+        <element label="Primer" max_length="255" name="primer" type="string"/>
+        <element label="Request Comment" max_length="65535" name="request_comment" type="string"/>
+        <element label="Sequencing Comment" max_length="65535" name="sequencing_comment" type="string"/>
+        <element label="Size" max_length="11" name="size" type="integer"/>
+        <element choice="1" label="Tube Type" mandatory="true" max_length="40" name="tube_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="2D Fluidex" value="2D Fluidex"/>
+                <element inactive_on_update="false" label="2D FluidX" value="2D FluidX"/>
+                <element inactive_on_update="false" label="Eppendorf" value="Eppendorf"/>
+            </choice>
+        </element>
+        <element label="User" max_length="255" name="user" type="string"/>
+    </element>
+</database>
