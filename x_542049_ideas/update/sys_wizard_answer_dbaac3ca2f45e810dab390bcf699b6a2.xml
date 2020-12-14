@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Second Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Second Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">962adb97d83210100c1d056eb8372397</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-14 16:16:54</sys_created_on>
+        <sys_id>dbaac3ca2f45e810dab390bcf699b6a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Second Task</sys_name>
+        <sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope>
+        <sys_update_name>sys_wizard_answer_dbaac3ca2f45e810dab390bcf699b6a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-14 16:16:54</sys_updated_on>
+        <table/>
+        <target_url>x_542049_ideas_second_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
