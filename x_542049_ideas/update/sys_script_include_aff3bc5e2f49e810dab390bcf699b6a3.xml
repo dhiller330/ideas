@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_542049_ideas.SendToEventBridge</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>SendToEventBridge</name>
+        <script><![CDATA[function SendToEventBridge(detailType, data) {
+	var ecc = new GlideRecord('ecc_queue');
+	ecc.initialize();
+	// It should be possible to assign a tag (like AWS) to a MID server and 
+	// then find a MID server with that tag when making the request.
+	// For now, just hard code the correct server.
+	ecc.agent = 'mid.server.sntest';
+	ecc.topic = "Command";
+	ecc.queue = "output";
+	var entries = [
+  {
+    "EventBusName": "global-requests-staging",
+    "Source": "ServiceNow",
+    "DetailType": detailType,
+    "Detail": JSON.stringify(data)
+  }
+];
+
+	var cmd = "aws events put-events --cli-input-json "  + encodeURI(entries);
+	ecc.payload='<parameters><parameter name="name" value="'+cmd+'"/></parameters>';
+	ecc.insert();
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-14 23:59:01</sys_created_on>
+        <sys_id>aff3bc5e2f49e810dab390bcf699b6a3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SendToEventBridge</sys_name>
+        <sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope>
+        <sys_update_name>sys_script_include_aff3bc5e2f49e810dab390bcf699b6a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 00:04:35</sys_updated_on>
+    </sys_script_include>
+</record_update>
