@@ -8,6 +8,7 @@
         <description/>
         <name>SendToEventBridge</name>
         <script><![CDATA[function SendToEventBridge(detailType, data) {
+	gs.info('SendToEventBridge: detailType=' + detailType);
 	var ecc = new GlideRecord('ecc_queue');
 	ecc.initialize();
 	// It should be possible to assign a tag (like AWS) to a MID server and 
@@ -16,30 +17,35 @@
 	ecc.agent = 'mid.server.sntest';
 	ecc.topic = "Command";
 	ecc.queue = "output";
-	var entries = [
+	var jsonData = JSON.stringify(data);
+	gs.info('jsonData=' + jsonData);
+	var entries = { 
+		'Entries' : [
   {
     "EventBusName": "global-requests-staging",
     "Source": "ServiceNow",
     "DetailType": detailType,
-    "Detail": JSON.stringify(data)
+    "Detail": jsonData
   }
-];
-
-	var cmd = "aws events put-events --cli-input-json "  + encodeURI(entries);
+]};
+	gs.info('entries=' + JSON.stringify(entries));
+	var cmd = "aws events put-events --region us-east-1 --cli-input-json '"  + JSON.stringify(entries) + "'";
+	gs.info('cmd=' + cmd);
 	ecc.payload='<parameters><parameter name="name" value="'+cmd+'"/></parameters>';
 	ecc.insert();
+	gs.info('SendToEventBridge: exiting');
 }]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-14 23:59:01</sys_created_on>
         <sys_id>aff3bc5e2f49e810dab390bcf699b6a3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>SendToEventBridge</sys_name>
         <sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope>
         <sys_update_name>sys_script_include_aff3bc5e2f49e810dab390bcf699b6a3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-15 00:04:35</sys_updated_on>
+        <sys_updated_on>2020-12-17 22:23:55</sys_updated_on>
     </sys_script_include>
 </record_update>

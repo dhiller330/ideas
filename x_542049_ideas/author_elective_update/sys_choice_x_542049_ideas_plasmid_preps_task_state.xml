@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_542049_ideas_plasmid_preps_task" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_542049_ideas_plasmid_preps_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-15 17:21:53</sys_created_on>
+            <sys_id>8d23ac662fc12c10dab390bcf699b6fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="IDEAS" source="x_542049_ideas">e520e4ba2f88a810749af64ef699b609</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IDEAS">e520e4ba2f88a810749af64ef699b609</sys_scope>
+            <sys_update_name>sys_choice_x_542049_ideas_plasmid_preps_task_state</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-15 17:21:53</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plasmid Prep in Progress</label>
+            <language>en</language>
+            <name>x_542049_ideas_plasmid_preps_task</name>
+            <sequence>-3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-15 17:21:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc03a0662fc12c10dab390bcf699b690</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-15 17:21:53</sys_updated_on>
+            <value>-3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Complete</label>
+            <language>en</language>
+            <name>x_542049_ideas_plasmid_preps_task</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-15 17:29:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>19c468a62fc12c10dab390bcf699b67c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-15 17:32:14</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
