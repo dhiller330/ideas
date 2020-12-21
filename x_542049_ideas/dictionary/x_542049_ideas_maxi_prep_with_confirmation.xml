@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Maxi Prep with Confirmation" max_length="40" name="x_542049_ideas_maxi_prep_with_confirmation" sizeclass="24" type="collection">
+    <element extends="task" label="Maxi Prep with Confirmation" max_length="40" name="x_542049_ideas_maxi_prep_with_confirmation" sizeclass="11" type="collection">
         <element label="Bacterial Host" mandatory="true" max_length="255" name="bacterial_host" type="string"/>
         <element label="Bacterial Selection" mandatory="true" max_length="255" name="bacterial_selection" type="string"/>
         <element label="Construct Name" mandatory="true" max_length="256" name="construct_name" type="string"/>
