@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"ends":["3a0fc4ef2f89ac10dab390bcf699b6d0"],"subflows":[],"stages":{},"activities":{}}</activity_stages>
+        <activity_stages>{"stages":{},"ends":["0451b4a42f552010dab390bcf699b6c1"],"subflows":[],"activities":{}}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -9,10 +9,10 @@
         <condition/>
         <condition_type>run_match</condition_type>
         <description>Workflow for the plasmid preps task</description>
-        <expected_sequences>fe0fc4ef2f89ac10dab390bcf699b6d1,320fc4ef2f89ac10dab390bcf699b6d1,7e0fc4ef2f89ac10dab390bcf699b6ce,3a0fc4ef2f89ac10dab390bcf699b6d0</expected_sequences>
+        <expected_sequences>c451b4a42f552010dab390bcf699b6c0,0c51b4a42f552010dab390bcf699b6c1,0c51b4a42f552010dab390bcf699b6c2,0451b4a42f552010dab390bcf699b6c1</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>fe0fc4ef2f89ac10dab390bcf699b6d1,320fc4ef2f89ac10dab390bcf699b6d1,7e0fc4ef2f89ac10dab390bcf699b6ce,3a0fc4ef2f89ac10dab390bcf699b6d0</full_sequences>
+        <full_sequences>c451b4a42f552010dab390bcf699b6c0,0c51b4a42f552010dab390bcf699b6c1,0c51b4a42f552010dab390bcf699b6c2,0451b4a42f552010dab390bcf699b6c1</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>Plasmid Prep Task</name>
@@ -27,16 +27,16 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">fe0fc4ef2f89ac10dab390bcf699b6d1</start>
+        <start display_value="Begin">c451b4a42f552010dab390bcf699b6c0</start>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>fa0f4cab2f89ac10dab390bcf699b6e2</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>c051fc642f552010dab390bcf699b6a7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 23:24:40</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:52:46</sys_updated_on>
         <table>x_542049_ideas_plasmid_preps_task</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Plasmid Prep Task">d7ad178f2f8d6c10dab390bcf699b637</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
@@ -79,21 +79,21 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>fe0fc4ef2f89ac10dab390bcf699b6d1</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>c451b4a42f552010dab390bcf699b6c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Plasmid Prep Task">fa0f4cab2f89ac10dab390bcf699b6e2</workflow_version>
-        <x>20</x>
-        <y>20</y>
+        <workflow_version display_value="Plasmid Prep Task">c051fc642f552010dab390bcf699b6a7</workflow_version>
+        <x>40</x>
+        <y>19</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=fe0fc4ef2f89ac10dab390bcf699b6d1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c451b4a42f552010dab390bcf699b6c0"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">fe0fc4ef2f89ac10dab390bcf699b6d1</activity>
+        <activity display_value="Begin">c451b4a42f552010dab390bcf699b6c0</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -107,11 +107,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>b20fc4ef2f89ac10dab390bcf699b6d2</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>0c51b4a42f552010dab390bcf699b6c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -129,19 +129,19 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>3a0fc4ef2f89ac10dab390bcf699b6d0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>0451b4a42f552010dab390bcf699b6c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:48:26</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Plasmid Prep Task">fa0f4cab2f89ac10dab390bcf699b6e2</workflow_version>
+        <workflow_version display_value="Plasmid Prep Task">c051fc642f552010dab390bcf699b6a7</workflow_version>
         <x>604</x>
         <y>124</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=3a0fc4ef2f89ac10dab390bcf699b6d0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0451b4a42f552010dab390bcf699b6c1"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -158,87 +158,73 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>7e0fc4ef2f89ac10dab390bcf699b6ce</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>0c51b4a42f552010dab390bcf699b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:48:08</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Plasmid Prep Task">fa0f4cab2f89ac10dab390bcf699b6e2</workflow_version>
+        <workflow_version display_value="Plasmid Prep Task">c051fc642f552010dab390bcf699b6a7</workflow_version>
         <x>379</x>
         <y>92</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=7e0fc4ef2f89ac10dab390bcf699b6ce"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0c51b4a42f552010dab390bcf699b6c2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7e0fc4ef2f89ac10dab390bcf699b6ce</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>3a0fc4ef2f89ac10dab390bcf699b6cf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
-        <value>Plasmid Prep Request Completed</value>
-        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>7e0fc4ef2f89ac10dab390bcf699b6ce</document_key>
+        <document_key>0c51b4a42f552010dab390bcf699b6c2</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>760fc4ef2f89ac10dab390bcf699b6cf</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>0451b4a42f552010dab390bcf699b6c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 answer = getEmailForUser(current.user);</value>
         <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7e0fc4ef2f89ac10dab390bcf699b6ce</document_key>
+        <document_key>0c51b4a42f552010dab390bcf699b6c2</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>b20fc4ef2f89ac10dab390bcf699b6cf</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>4051b4a42f552010dab390bcf699b6c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
         <value>1</value>
         <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7e0fc4ef2f89ac10dab390bcf699b6ce</document_key>
+        <document_key>0c51b4a42f552010dab390bcf699b6c2</document_key>
         <order>150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>be0fc4ef2f89ac10dab390bcf699b6cf</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>4c51b4a42f552010dab390bcf699b6c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
         <value/>
         <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7e0fc4ef2f89ac10dab390bcf699b6ce</document_key>
+        <document_key>0c51b4a42f552010dab390bcf699b6c2</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>fa0fc4ef2f89ac10dab390bcf699b6cf</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>8851b4a42f552010dab390bcf699b6c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
         <value>Plasmid Prep with ID:&#13;
 ${fulfillment_request_identifier} completed.&#13;
 &#13;
@@ -248,71 +234,85 @@ ${fulfillment_request_identifier} completed.&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7e0fc4ef2f89ac10dab390bcf699b6ce</document_key>
+        <document_key>0c51b4a42f552010dab390bcf699b6c2</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>fe0fc4ef2f89ac10dab390bcf699b6ce</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>8c51b4a42f552010dab390bcf699b6c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
         <value/>
         <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7e0fc4ef2f89ac10dab390bcf699b6ce</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>fe0fc4ef2f89ac10dab390bcf699b6ce</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
-        <value/>
-        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>7e0fc4ef2f89ac10dab390bcf699b6ce</document_key>
-        <order>150</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>be0fc4ef2f89ac10dab390bcf699b6cf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
-        <value/>
-        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>7e0fc4ef2f89ac10dab390bcf699b6ce</document_key>
+        <document_key>0c51b4a42f552010dab390bcf699b6c2</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>3a0fc4ef2f89ac10dab390bcf699b6cf</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>c451b4a42f552010dab390bcf699b6c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
         <value>Plasmid Prep Request Completed</value>
         <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7e0fc4ef2f89ac10dab390bcf699b6ce</document_key>
+        <document_key>0c51b4a42f552010dab390bcf699b6c2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>8c51b4a42f552010dab390bcf699b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0c51b4a42f552010dab390bcf699b6c2</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>4c51b4a42f552010dab390bcf699b6c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0c51b4a42f552010dab390bcf699b6c2</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>c451b4a42f552010dab390bcf699b6c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
+        <value>Plasmid Prep Request Completed</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0c51b4a42f552010dab390bcf699b6c2</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>fa0fc4ef2f89ac10dab390bcf699b6cf</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>8851b4a42f552010dab390bcf699b6c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
         <value>Plasmid Prep with ID:&#13;
 ${fulfillment_request_identifier} completed.&#13;
 &#13;
@@ -322,35 +322,35 @@ ${fulfillment_request_identifier} completed.&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7e0fc4ef2f89ac10dab390bcf699b6ce</document_key>
+        <document_key>0c51b4a42f552010dab390bcf699b6c2</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>b20fc4ef2f89ac10dab390bcf699b6cf</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>4051b4a42f552010dab390bcf699b6c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
         <value>1</value>
         <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7e0fc4ef2f89ac10dab390bcf699b6ce</document_key>
+        <document_key>0c51b4a42f552010dab390bcf699b6c2</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>760fc4ef2f89ac10dab390bcf699b6cf</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>0451b4a42f552010dab390bcf699b6c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 answer = getEmailForUser(current.user);</value>
         <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Plasmid Prep Completed">7e0fc4ef2f89ac10dab390bcf699b6ce</activity>
+        <activity display_value="Plasmid Prep Completed">0c51b4a42f552010dab390bcf699b6c2</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -364,11 +364,11 @@ answer = getEmailForUser(current.user);</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>b20fc4ef2f89ac10dab390bcf699b6d0</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>4051b4a42f552010dab390bcf699b6c4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
@@ -386,44 +386,44 @@ answer = getEmailForUser(current.user);</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>320fc4ef2f89ac10dab390bcf699b6d1</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>0c51b4a42f552010dab390bcf699b6c1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Plasmid Prep Task">fa0f4cab2f89ac10dab390bcf699b6e2</workflow_version>
+        <workflow_version display_value="Plasmid Prep Task">c051fc642f552010dab390bcf699b6a7</workflow_version>
         <x>172</x>
         <y>45</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=320fc4ef2f89ac10dab390bcf699b6d1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0c51b4a42f552010dab390bcf699b6c1"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>320fc4ef2f89ac10dab390bcf699b6d1</document_key>
+        <document_key>0c51b4a42f552010dab390bcf699b6c1</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>760fc4ef2f89ac10dab390bcf699b6d1</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>4051b4a42f552010dab390bcf699b6c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
         <value>state=3^EQ</value>
         <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>320fc4ef2f89ac10dab390bcf699b6d1</document_key>
+        <document_key>0c51b4a42f552010dab390bcf699b6c1</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>b20fc4ef2f89ac10dab390bcf699b6d1</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>8c51b4a42f552010dab390bcf699b6c1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
 answer = true;&#13;
 </value>
@@ -431,36 +431,36 @@ answer = true;&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>320fc4ef2f89ac10dab390bcf699b6d1</document_key>
+        <document_key>0c51b4a42f552010dab390bcf699b6c1</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>760fc4ef2f89ac10dab390bcf699b6d1</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>4051b4a42f552010dab390bcf699b6c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
         <value>state=3^EQ</value>
         <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>320fc4ef2f89ac10dab390bcf699b6d1</document_key>
+        <document_key>0c51b4a42f552010dab390bcf699b6c1</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>b20fc4ef2f89ac10dab390bcf699b6d1</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>8c51b4a42f552010dab390bcf699b6c1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
 answer = true;&#13;
 </value>
         <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Wait for Plasmid Prep to Complete">320fc4ef2f89ac10dab390bcf699b6d1</activity>
+        <activity display_value="Wait for Plasmid Prep to Complete">0c51b4a42f552010dab390bcf699b6c1</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -474,58 +474,58 @@ answer = true;&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>7a0fc4ef2f89ac10dab390bcf699b6d1</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>4451b4a42f552010dab390bcf699b6c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">7a0fc4ef2f89ac10dab390bcf699b6d1</condition>
-        <from display_value="Wait for Plasmid Prep to Complete">320fc4ef2f89ac10dab390bcf699b6d1</from>
+        <condition display_value="Always">4051b4a42f552010dab390bcf699b6c4</condition>
+        <from display_value="Plasmid Prep Completed">0c51b4a42f552010dab390bcf699b6c2</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>7e0fc4ef2f89ac10dab390bcf699b6d3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:09</sys_updated_on>
-        <to display_value="Plasmid Prep Completed">7e0fc4ef2f89ac10dab390bcf699b6ce</to>
-    </wf_transition>
-    <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">b20fc4ef2f89ac10dab390bcf699b6d0</condition>
-        <from display_value="Plasmid Prep Completed">7e0fc4ef2f89ac10dab390bcf699b6ce</from>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>b60fc4ef2f89ac10dab390bcf699b6d3</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>0851b4a42f552010dab390bcf699b6c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
-        <to display_value="End">3a0fc4ef2f89ac10dab390bcf699b6d0</to>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
+        <to display_value="End">0451b4a42f552010dab390bcf699b6c1</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">b20fc4ef2f89ac10dab390bcf699b6d2</condition>
-        <from display_value="Begin">fe0fc4ef2f89ac10dab390bcf699b6d1</from>
+        <condition display_value="Always">0c51b4a42f552010dab390bcf699b6c0</condition>
+        <from display_value="Begin">c451b4a42f552010dab390bcf699b6c0</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>f20fc4ef2f89ac10dab390bcf699b6d3</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>4451b4a42f552010dab390bcf699b6c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
-        <to display_value="Wait for Plasmid Prep to Complete">320fc4ef2f89ac10dab390bcf699b6d1</to>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
+        <to display_value="Wait for Plasmid Prep to Complete">0c51b4a42f552010dab390bcf699b6c1</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">4451b4a42f552010dab390bcf699b6c2</condition>
+        <from display_value="Wait for Plasmid Prep to Complete">0c51b4a42f552010dab390bcf699b6c1</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>c851b4a42f552010dab390bcf699b6c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
+        <to display_value="Plasmid Prep Completed">0c51b4a42f552010dab390bcf699b6c2</to>
     </wf_transition>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 18:28:00</sys_created_on>
-        <sys_id>7e0f4cab2f89ac10dab390bcf699b6e2</sys_id>
+        <sys_created_on>2020-12-21 23:31:39</sys_created_on>
+        <sys_id>4451fc642f552010dab390bcf699b6a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 18:28:00</sys_updated_on>
-        <workflow_version display_value="Plasmid Prep Task">fa0f4cab2f89ac10dab390bcf699b6e2</workflow_version>
+        <sys_updated_on>2020-12-21 23:31:39</sys_updated_on>
+        <workflow_version display_value="Plasmid Prep Task">c051fc642f552010dab390bcf699b6a7</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=d7ad178f2f8d6c10dab390bcf699b637^sys_id!=fa0f4cab2f89ac10dab390bcf699b6e2">
+    <wf_workflow_version action="update_multiple" query="workflow=d7ad178f2f8d6c10dab390bcf699b637^sys_id!=c051fc642f552010dab390bcf699b6a7">
         <published>false</published>
     </wf_workflow_version>
 </record_update>
